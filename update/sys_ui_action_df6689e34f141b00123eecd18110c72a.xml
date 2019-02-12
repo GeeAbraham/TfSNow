@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="774190f01f1310005a3637b8ec8b70ef" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>duplicate_csi_task</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2/>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Duplicate CSI Task</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[doInsertAndStay();
+function doInsertAndStay() {
+    var saveMe = current;
+    if (typeof current.number != 'undefined' && current.number)
+        current.number = ""; // generate a new number
+    else if (typeof current.u_number != 'undefined' && current.u_number)
+        current.u_number = ""; // generate a new number
+		current.date_raised ='';
+		current.assigned_to = '';
+		current.target_completion_date = '';
+		current.task_priority = '';
+		current.status = '';
+		current.completion_date = '';
+		current.percentage_complete = '';
+		current.current_rag_status = '';
+		current.cost ='';
+		current.activities = '';
+	
+    current.insert();
+    action.setRedirectURL(saveMe);
+}
+
+]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+        <sys_created_on>2018-02-21 10:57:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+        <sys_domain_path>!!!/</sys_domain_path>
+        <sys_id>df6689e34f141b00123eecd18110c72a</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Duplicate CSI Task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Continual Service Improvement" source="x_18360_continual">7f4dde5c4f7522009414cab18110c7b9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continual Service Improvement">7f4dde5c4f7522009414cab18110c7b9</sys_scope>
+        <sys_update_name>sys_ui_action_df6689e34f141b00123eecd18110c72a</sys_update_name>
+        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+        <sys_updated_on>2018-02-21 11:55:10</sys_updated_on>
+        <table>x_18360_continual_csi_tasks</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

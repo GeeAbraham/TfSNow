@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="db38a20a379aeb801e2b2ea843990ec9" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="x_18360_continual_csi_plans" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-12 08:20:20</sys_created_on>
+            <sys_id>df38a20a379aeb801e2b2ea843990ed6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_18360_continual_csi_plans" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">db38a20a379aeb801e2b2ea843990ec9</sys_ui_section>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-12 08:20:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>plan_name</element>
+            <position>1</position>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-12 08:20:20</sys_created_on>
+            <sys_id>eb38a20a379aeb801e2b2ea843990ed7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_18360_continual_csi_plans" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">db38a20a379aeb801e2b2ea843990ec9</sys_ui_section>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-12 08:20:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>plan_owner</element>
+            <position>2</position>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-12 08:20:20</sys_created_on>
+            <sys_id>6f38a20a379aeb801e2b2ea843990ed7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_18360_continual_csi_plans" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">db38a20a379aeb801e2b2ea843990ec9</sys_ui_section>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-12 08:20:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>plan_duration</element>
+            <position>3</position>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-12 08:20:20</sys_created_on>
+            <sys_id>ef38a20a379aeb801e2b2ea843990ed7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_18360_continual_csi_plans" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">db38a20a379aeb801e2b2ea843990ec9</sys_ui_section>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-12 08:20:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>display_in_dashboard</element>
+            <position>4</position>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-12 08:20:20</sys_created_on>
+            <sys_id>6338a20a379aeb801e2b2ea843990ed8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_18360_continual_csi_plans" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">db38a20a379aeb801e2b2ea843990ec9</sys_ui_section>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-12 08:20:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-12 08:20:20</sys_created_on>
+            <sys_id>e338a20a379aeb801e2b2ea843990ed8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_18360_continual_csi_plans" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">db38a20a379aeb801e2b2ea843990ec9</sys_ui_section>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-12 08:20:20</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>6</position>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-12 08:20:20</sys_created_on>
+            <sys_id>6738a20a379aeb801e2b2ea843990ed8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_18360_continual_csi_plans" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">db38a20a379aeb801e2b2ea843990ec9</sys_ui_section>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-12 08:20:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_line</element>
+            <position>7</position>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-12 08:20:20</sys_created_on>
+            <sys_id>e738a20a379aeb801e2b2ea843990ed8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_18360_continual_csi_plans" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">db38a20a379aeb801e2b2ea843990ec9</sys_ui_section>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-12 08:20:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>8</position>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-12 08:20:20</sys_created_on>
+            <sys_id>6b38a20a379aeb801e2b2ea843990ed8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_18360_continual_csi_plans" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">db38a20a379aeb801e2b2ea843990ec9</sys_ui_section>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-12 08:20:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>9</position>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-12 08:20:20</sys_created_on>
+            <sys_id>eb38a20a379aeb801e2b2ea843990ed8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_18360_continual_csi_plans" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">db38a20a379aeb801e2b2ea843990ec9</sys_ui_section>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-12 08:20:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>10</position>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-12 08:20:20</sys_created_on>
+            <sys_id>6f38a20a379aeb801e2b2ea843990ed8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_18360_continual_csi_plans" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">db38a20a379aeb801e2b2ea843990ec9</sys_ui_section>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-12 08:20:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason</element>
+            <position>11</position>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-12 08:20:20</sys_created_on>
+            <sys_id>ef38a20a379aeb801e2b2ea843990ed8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_18360_continual_csi_plans" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">db38a20a379aeb801e2b2ea843990ec9</sys_ui_section>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-12 08:20:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_access</element>
+            <position>12</position>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-12 08:20:20</sys_created_on>
+            <sys_id>6338a20a379aeb801e2b2ea843990ed9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_18360_continual_csi_plans" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">db38a20a379aeb801e2b2ea843990ec9</sys_ui_section>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-12 08:20:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_18360_continual_csi_plans</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-12 08:20:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>db38a20a379aeb801e2b2ea843990ec9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_18360_continual_csi_plans</sys_name>
+            <sys_overrides caption="NULL" display_value="" name="x_18360_continual_csi_plans" sys_domain="global" view="Default view">42360f284fb922009414cab18110c79a</sys_overrides>
+            <sys_package display_value="Continual Service Improvement" source="x_18360_continual">7f4dde5c4f7522009414cab18110c7b9</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Continual Service Improvement">7f4dde5c4f7522009414cab18110c7b9</sys_scope>
+            <sys_update_name>sys_ui_section_db38a20a379aeb801e2b2ea843990ec9</sys_update_name>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-12 08:20:19</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

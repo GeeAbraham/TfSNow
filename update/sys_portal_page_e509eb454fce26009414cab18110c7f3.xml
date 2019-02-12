@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2019-02-12 15:59:13">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_overview">1a656051d7030200eaae68150e610399</layout>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+        <sys_created_on>2016-09-22 15:29:08</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e509eb454fce26009414cab18110c7f3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Continual Service Improvement</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continual Service Improvement">7f4dde5c4f7522009414cab18110c7b9</sys_scope>
+        <sys_update_name>sys_portal_page_e509eb454fce26009414cab18110c7f3</sys_update_name>
+        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+        <sys_updated_on>2016-09-22 16:13:09</sys_updated_on>
+        <title>Continual Service Improvement</title>
+        <user/>
+        <view>csi</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="Continual Service Improvement">e509eb454fce26009414cab18110c7f3</page>
+                <summary/>
+                <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                <sys_created_on>2016-09-22 15:38:18</sys_created_on>
+                <sys_id>3f1b27c54fce26009414cab18110c7f5</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                <sys_updated_on>2016-09-22 15:38:18</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 22/09/2016 16:38:18">3f1b27c54fce26009414cab18110c7f5</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:38:18</sys_created_on>
+                        <sys_id>331b27c54fce26009414cab18110c7f6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:38:18</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 22/09/2016 16:38:18">3f1b27c54fce26009414cab18110c7f5</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:38:18</sys_created_on>
+                        <sys_id>7b1b27c54fce26009414cab18110c7f6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:38:18</sys_updated_on>
+                        <value>CSIP ACTION COMPLETION: To Date</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 22/09/2016 16:38:18">3f1b27c54fce26009414cab18110c7f5</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:38:18</sys_created_on>
+                        <sys_id>7f1b27c54fce26009414cab18110c7f5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:38:18</sys_updated_on>
+                        <value>3b8a2f854fce26009414cab18110c7b3</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 22/09/2016 16:38:18">3f1b27c54fce26009414cab18110c7f5</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:38:18</sys_created_on>
+                        <sys_id>b71b27c54fce26009414cab18110c7f6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:38:18</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 22/09/2016 16:38:18">3f1b27c54fce26009414cab18110c7f5</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:38:18</sys_created_on>
+                        <sys_id>f31b27c54fce26009414cab18110c7f6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:38:18</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone4</dropzone>
+                <offset>0</offset>
+                <page display_value="Continual Service Improvement">e509eb454fce26009414cab18110c7f3</page>
+                <summary>CSIP ACTION PROGRESS</summary>
+                <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                <sys_created_on>2016-09-22 15:53:05</sys_created_on>
+                <sys_id>9c8e2fc54fce26009414cab18110c729</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                <sys_updated_on>2016-09-22 15:53:05</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 22/09/2016 16:53:05">9c8e2fc54fce26009414cab18110c729</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:53:05</sys_created_on>
+                        <sys_id>1c8e2fc54fce26009414cab18110c72a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:53:05</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 22/09/2016 16:53:05">9c8e2fc54fce26009414cab18110c729</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:53:05</sys_created_on>
+                        <sys_id>508e2fc54fce26009414cab18110c72a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:53:05</sys_updated_on>
+                        <value>CSIP ACTION PROGRESS</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 22/09/2016 16:53:05">9c8e2fc54fce26009414cab18110c729</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:53:05</sys_created_on>
+                        <sys_id>588e2fc54fce26009414cab18110c72a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:53:05</sys_updated_on>
+                        <value>026eebc54fce26009414cab18110c75f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 22/09/2016 16:53:05">9c8e2fc54fce26009414cab18110c729</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:53:05</sys_created_on>
+                        <sys_id>948e2fc54fce26009414cab18110c72a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:53:05</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 22/09/2016 16:53:05">9c8e2fc54fce26009414cab18110c729</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:53:05</sys_created_on>
+                        <sys_id>dc8e2fc54fce26009414cab18110c72a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:53:05</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone3</dropzone>
+                <offset>0</offset>
+                <page display_value="Continual Service Improvement">e509eb454fce26009414cab18110c7f3</page>
+                <summary>CSIP OPEN ACTION ASSIGNMENTS</summary>
+                <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                <sys_created_on>2016-09-22 15:45:29</sys_created_on>
+                <sys_id>b4ccaf854fce26009414cab18110c7e7</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                <sys_updated_on>2016-09-22 15:45:29</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 22/09/2016 16:45:29">b4ccaf854fce26009414cab18110c7e7</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:45:29</sys_created_on>
+                        <sys_id>34ccaf854fce26009414cab18110c7e8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:45:29</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 22/09/2016 16:45:29">b4ccaf854fce26009414cab18110c7e7</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:45:29</sys_created_on>
+                        <sys_id>70ccaf854fce26009414cab18110c7e8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:45:29</sys_updated_on>
+                        <value>29bca3c54fce26009414cab18110c7ab</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 22/09/2016 16:45:29">b4ccaf854fce26009414cab18110c7e7</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:45:29</sys_created_on>
+                        <sys_id>78ccaf854fce26009414cab18110c7e7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:45:29</sys_updated_on>
+                        <value>CSIP OPEN ACTION ASSIGNMENTS</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 22/09/2016 16:45:29">b4ccaf854fce26009414cab18110c7e7</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:45:29</sys_created_on>
+                        <sys_id>bcccaf854fce26009414cab18110c7e7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:45:29</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 22/09/2016 16:45:29">b4ccaf854fce26009414cab18110c7e7</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:45:29</sys_created_on>
+                        <sys_id>f4ccaf854fce26009414cab18110c7e8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:45:29</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone5</dropzone>
+                <offset>0</offset>
+                <page display_value="Continual Service Improvement">e509eb454fce26009414cab18110c7f3</page>
+                <summary>CSIP OPEN ACTION PRIORITY</summary>
+                <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                <sys_created_on>2016-09-22 15:58:30</sys_created_on>
+                <sys_id>e7bf2b094fce26009414cab18110c701</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                <sys_updated_on>2016-09-22 15:58:30</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 22/09/2016 16:58:30">e7bf2b094fce26009414cab18110c701</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:58:30</sys_created_on>
+                        <sys_id>2bbf2b094fce26009414cab18110c702</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:58:30</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 22/09/2016 16:58:30">e7bf2b094fce26009414cab18110c701</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:58:30</sys_created_on>
+                        <sys_id>67bf2b094fce26009414cab18110c702</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:58:30</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 22/09/2016 16:58:30">e7bf2b094fce26009414cab18110c701</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:58:30</sys_created_on>
+                        <sys_id>a3bf2b094fce26009414cab18110c702</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:58:30</sys_updated_on>
+                        <value>e3afa3094fce26009414cab18110c78a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 22/09/2016 16:58:30">e7bf2b094fce26009414cab18110c701</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:58:30</sys_created_on>
+                        <sys_id>abbf2b094fce26009414cab18110c701</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:58:30</sys_updated_on>
+                        <value>CSIP OPEN ACTION PRIORITY</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 22/09/2016 16:58:30">e7bf2b094fce26009414cab18110c701</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:58:30</sys_created_on>
+                        <sys_id>efbf2b094fce26009414cab18110c701</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:58:30</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="Continual Service Improvement">e509eb454fce26009414cab18110c7f3</page>
+                <summary/>
+                <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                <sys_created_on>2016-09-22 15:38:18</sys_created_on>
+                <sys_id>f71b27c54fce26009414cab18110c7f4</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                <sys_updated_on>2016-09-22 15:38:18</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 22/09/2016 16:38:18">f71b27c54fce26009414cab18110c7f4</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:38:18</sys_created_on>
+                        <sys_id>371b27c54fce26009414cab18110c7f5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:38:18</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 22/09/2016 16:38:18">f71b27c54fce26009414cab18110c7f4</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:38:18</sys_created_on>
+                        <sys_id>3b1b27c54fce26009414cab18110c7f4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:38:18</sys_updated_on>
+                        <value>afe8a3854fce26009414cab18110c79a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 22/09/2016 16:38:18">f71b27c54fce26009414cab18110c7f4</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:38:18</sys_created_on>
+                        <sys_id>731b27c54fce26009414cab18110c7f5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:38:18</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 22/09/2016 16:38:18">f71b27c54fce26009414cab18110c7f4</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:38:18</sys_created_on>
+                        <sys_id>bf1b27c54fce26009414cab18110c7f4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:38:18</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 22/09/2016 16:38:18">f71b27c54fce26009414cab18110c7f4</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:38:18</sys_created_on>
+                        <sys_id>f71b27c54fce26009414cab18110c7f5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:38:18</sys_updated_on>
+                        <value>CSIP ACTION STATUS SUMMARY</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 22/09/2016 16:38:18">f71b27c54fce26009414cab18110c7f4</portal_section>
+                        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+                        <sys_created_on>2016-09-22 15:38:18</sys_created_on>
+                        <sys_id>fb1b27c54fce26009414cab18110c7f4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+                        <sys_updated_on>2016-09-22 15:38:18</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

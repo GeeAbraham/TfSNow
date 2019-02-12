@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Compliments" max_length="40" name="x_18360_continual_compliments" type="collection"/>
+</database>

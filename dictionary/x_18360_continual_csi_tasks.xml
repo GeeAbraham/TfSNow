@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="ลำดับความสำคัญงาน" max_length="40" name="x_18360_continual_csi_tasks" sizeclass="196" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Benefits realised" max_length="100" name="benefits_realised" type="string"/>
+        <element label="Chargeable to customer?" max_length="40" name="chargeable_to_customer" type="boolean"/>
+        <element label="Completion" max_length="40" name="completion_date" type="glide_date_time"/>
+        <element attributes="omit_sys_original=true" label="Cost" max_length="15" name="cost" type="currency"/>
+        <element label="CSI plan" max_length="32" name="csi_plan" reference="x_18360_continual_csi_plans" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Current RAG status" max_length="40" name="current_rag_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Green" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Amber" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Czerwony" language="pl" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Red" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="rojo" language="es" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Rood" language="nl" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="rot" language="de" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="rouge" language="fr" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Vermelho" language="pt" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="красный" language="ru" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="สีแดง" language="th" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="红" language="zh" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="赤" language="ja" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Date raised" max_length="40" name="date_raised" type="glide_date_time" use_dynamic_default="true"/>
+        <element label="Do not notify" max_length="40" name="do_not_notify" type="boolean"/>
+        <element label="Financial approval required?" max_length="40" name="financial_approval_required" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Improvement objective (Benefit)" max_length="160" name="improvement_objective_benefit" type="string"/>
+        <element label="Key action" max_length="40" name="key_action" type="boolean"/>
+        <element label="Next review" max_length="40" name="next_review_date" type="glide_date_time"/>
+        <element label="Percentage complete" max_length="15" name="percentage_complete" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true" label="Progress Update" max_length="2000" name="progress_update" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Revenue linked" max_length="40" name="revenue_linked" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Source" max_length="160" name="source" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not Started" sequence="1" value="1"/>
+                <element inactive="true" inactive_on_update="true" label="On Hold" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Work In Progress" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Achevée" language="fr" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Compleet" language="nl" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Completar" language="es" sequence="4" value="4"/>
+                <element inactive="true" inactive_on_update="true" label="Complete" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Completo" language="pt" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Kompletny" language="pl" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Komplett" language="de" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="полный" language="ru" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="สมบูรณ์" language="th" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="コンプリート" language="ja" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="完成" language="zh" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="On Hold - Awaiting Customer" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="On Hold – Awaiting Account" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Closed Complete" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="Closed Incomplete" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="Withdrawn" sequence="9" value="9"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Success measure" max_length="160" name="success_measure" type="string"/>
+        <element label="Target completion" max_length="40" name="target_completion_date" type="glide_date_time"/>
+        <element choice="1" label="Priority" max_length="40" name="task_priority" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Baixo" language="pt" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Bajo" language="es" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Faible" language="fr" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Laag" language="nl" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Low" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Niedrig" language="de" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Niska" language="pl" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Низкий" language="ru" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="ต่ำ" language="th" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="低" language="zh" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="低い" language="ja" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Visible to customer" max_length="40" name="visible_to_customer" type="boolean"/>
+    </element>
+</database>

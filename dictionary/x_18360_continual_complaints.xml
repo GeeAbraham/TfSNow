@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Complaints" max_length="40" name="x_18360_continual_complaints" sizeclass="43" type="collection">
+        <element label="Contact Number" max_length="20" name="contact_number" type="string"/>
+        <element label="Action owner(s)" max_length="1024" name="u_action_owner" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Action taken" max_length="40" name="u_action_taken" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Actual reason" max_length="40" name="u_actual_reason" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Business line" max_length="40" name="u_business_line" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element label="Case owner" max_length="32" name="u_case_owner" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Resolve / Close Code" max_length="40" name="u_close_code" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element label="Complainant does not exist" max_length="40" name="u_complainant_exist" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Complainant Name" max_length="40" name="u_complainant_name" type="string"/>
+        <element label="Customer expects feedback" max_length="40" name="u_cust_exp_feed" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Email ID" max_length="40" name="u_email" type="string"/>
+        <element label="Email ID" max_length="40" name="u_email_id" type="email"/>
+        <element label="Immediate attention required" max_length="40" name="u_immediate_att" type="boolean"/>
+        <element active="false" attributes="edge_encryption_enabled=true" choice="1" label="Investigation Result" max_length="40" name="u_investigation_result" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element active="false" attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="u_man_location" type="string"/>
+        <element label="Problem Candidate" max_length="40" name="u_prb_cand" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Reason" max_length="40" name="u_reason_for_complaint" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Service line" max_length="40" name="u_service_line" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element active="false" attributes="edge_encryption_enabled=true" label="Corrective Actions" max_length="5000" name="u_string_5" type="string"/>
+    </element>
+</database>

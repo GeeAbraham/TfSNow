@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>CSI Plans</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>CSI Plans</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">b13e0373371202002eed304643990ec3</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+        <sys_created_on>2016-09-07 15:47:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a05d969c4f7522009414cab18110c762</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CSI Plans</sys_name>
+        <sys_package display_value="Continual Service Improvement" source="x_18360_continual">7f4dde5c4f7522009414cab18110c7b9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continual Service Improvement">7f4dde5c4f7522009414cab18110c7b9</sys_scope>
+        <sys_update_name>sys_wizard_answer_a05d969c4f7522009414cab18110c762</sys_update_name>
+        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+        <sys_updated_on>2016-09-07 15:47:15</sys_updated_on>
+        <table/>
+        <target_url>x_18360_continual_csi_plans.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

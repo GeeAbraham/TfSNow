@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_complainant_name</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+        <sys_created_on>2018-10-18 11:09:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>935f7fd0db1da384e08070d9bf9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_complainant_name</sys_name>
+        <sys_package display_value="Continual Service Improvement" source="x_18360_continual">7f4dde5c4f7522009414cab18110c7b9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continual Service Improvement">7f4dde5c4f7522009414cab18110c7b9</sys_scope>
+        <sys_update_name>sys_ui_policy_action_935f7fd0db1da384e08070d9bf9619e8</sys_update_name>
+        <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+        <sys_updated_on>2018-10-18 11:09:29</sys_updated_on>
+        <table>x_18360_continual_complaints</table>
+        <ui_policy display_value="Hide field Complainant (String) ">e98efb90db1da384e08070d9bf96192e</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

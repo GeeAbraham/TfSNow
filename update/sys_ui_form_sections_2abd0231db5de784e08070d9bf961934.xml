@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="2abd0231db5de784e08070d9bf961934" sys_domain="global" table="x_18360_continual_complaints" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-10-22 18:43:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6bdc231db5de784e08070d9bf96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_18360_continual_complaints" name="x_18360_continual_complaints" sys_domain="global" view="Default view">2abd0231db5de784e08070d9bf961934</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_18360_continual_complaints" sys_domain="global" view="Default view">f90202b5db1de784e08070d9bf9619ae</sys_ui_section>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-10-22 18:43:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-10-22 18:43:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2bdc231db5de784e08070d9bf9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_18360_continual_complaints" name="x_18360_continual_complaints" sys_domain="global" view="Default view">2abd0231db5de784e08070d9bf961934</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_18360_continual_complaints" sys_domain="global" view="Default view">66bd0231db5de784e08070d9bf961933</sys_ui_section>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-10-22 18:43:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-10-22 18:46:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>368e8e31db5de784e08070d9bf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_18360_continual_complaints" name="x_18360_continual_complaints" sys_domain="global" view="Default view">2abd0231db5de784e08070d9bf961934</sys_ui_form>
+            <sys_ui_section caption="Complaint Details" display_value="Complaint Details" name="x_18360_continual_complaints" sys_domain="global" view="Default view">be8e4e31db5de784e08070d9bf96195f</sys_ui_section>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-10-22 18:46:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-10-22 18:59:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>996192b5db5de784e08070d9bf961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_18360_continual_complaints" name="x_18360_continual_complaints" sys_domain="global" view="Default view">2abd0231db5de784e08070d9bf961934</sys_ui_form>
+            <sys_ui_section caption="Resolution/Closure information" display_value="Resolution/Closure information" name="x_18360_continual_complaints" sys_domain="global" view="Default view">516192b5db5de784e08070d9bf961986</sys_ui_section>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-10-22 18:59:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_18360_continual_complaints</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-10-22 18:43:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2abd0231db5de784e08070d9bf961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_18360_continual_complaints</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Continual Service Improvement" source="x_18360_continual">7f4dde5c4f7522009414cab18110c7b9</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Continual Service Improvement">7f4dde5c4f7522009414cab18110c7b9</sys_scope>
+            <sys_update_name>sys_ui_form_sections_2abd0231db5de784e08070d9bf961934</sys_update_name>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-10-22 18:43:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

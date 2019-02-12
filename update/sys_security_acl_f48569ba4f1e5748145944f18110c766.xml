@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow read for records in x_18360_continual_csi_plans, for users with role snc_internal, and if the ACL script returns true.</description>
+        <name>x_18360_continual_csi_plans</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[if((current.user_access.indexOf(gs.getUserID()) > -1) && gs.hasRole('x_18360_continual.controlled_access'))
+	answer = true;
+	else
+		answer = false;
+
+]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+        <sys_created_on>2018-05-29 16:41:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f48569ba4f1e5748145944f18110c766</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>x_18360_continual_csi_plans</sys_name>
+        <sys_package display_value="Continual Service Improvement" source="x_18360_continual">7f4dde5c4f7522009414cab18110c7b9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continual Service Improvement">7f4dde5c4f7522009414cab18110c7b9</sys_scope>
+        <sys_update_name>sys_security_acl_f48569ba4f1e5748145944f18110c766</sys_update_name>
+        <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+        <sys_updated_on>2018-05-30 16:08:22</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="774190f01f1310005a3637b8ec8b70ef" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This client script makes all fields in the CSI Task form Read Only if it is closed / withdrawn and user is not admin.&#13;
+&#13;
+&amp;&amp; (!g_user.hasRoleExactly('admin'))</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Make TASK readonly on closed / Withdrawn</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+     //Type appropriate comment here, and begin script below
+
+var planstate=g_form.getValue('status');
+
+
+   if((planstate =='7' || planstate =='8' || planstate =='9')&& (!g_user.hasRoleExactly('admin')))                                                       
+	   
+   {
+	   //alert(g_user.hasRoleExactly('admin'));
+// 	g_form.setReadOnly('u_complaint',true);
+// 	   g_form.setReadOnly('source',true);
+// 	   g_form.setReadOnly('improvement_objective_benefit',true);
+// 	   g_form.setReadOnly('success_measure',true);
+// 	   g_form.setReadOnly('benefits_realised',true);
+// 	   g_form.setReadOnly('progress_update',true);
+	   
+	   
+
+   var fields = g_form.getEditableFields();
+
+
+   for (var x = 0; x < fields.length; x++) {
+
+
+   g_form.setReadOnly(fields[x], true);
+
+
+   }
+
+
+   }
+
+
+}
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+        <sys_created_on>2019-01-09 19:20:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+        <sys_domain_path>!!!/</sys_domain_path>
+        <sys_id>bfbb811b373a67001e2b2ea843990e18</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Make TASK readonly on closed / Withdrawn</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Continual Service Improvement" source="x_18360_continual">7f4dde5c4f7522009414cab18110c7b9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continual Service Improvement">7f4dde5c4f7522009414cab18110c7b9</sys_scope>
+        <sys_update_name>sys_script_client_bfbb811b373a67001e2b2ea843990e18</sys_update_name>
+        <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+        <sys_updated_on>2019-01-15 18:27:01</sys_updated_on>
+        <table>x_18360_continual_csi_tasks</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

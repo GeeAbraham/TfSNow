@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group/>
+        <location/>
+        <match_all>false</match_all>
+        <name>Complaint visibility</name>
+        <role/>
+        <script/>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+        <sys_created_on>2018-11-02 11:08:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f1fe8915dba967c4e08070d9bf96196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Complaint visibility</sys_name>
+        <sys_package display_value="Continual Service Improvement" source="x_18360_continual">7f4dde5c4f7522009414cab18110c7b9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continual Service Improvement">7f4dde5c4f7522009414cab18110c7b9</sys_scope>
+        <sys_update_name>user_criteria_f1fe8915dba967c4e08070d9bf96196a</sys_update_name>
+        <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+        <sys_updated_on>2018-11-02 11:08:40</sys_updated_on>
+        <user>5a0097efdb8c2b40e08070d9bf961916,d51029d3dbccc340e08070d9bf961912,9db192100faab1005cd283fc22050ed7,d4158c8b37aa0200adf52b2943990e00,88235af10f57f5005cd283fc22050ee8,dd3a614edb795b00e08070d9bf9619cf</user>
+    </user_criteria>
+</record_update>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Plan duur" max_length="40" name="x_18360_continual_csi_plans" sizeclass="80" text_index="true" type="collection">
+        <element label="Display in dashboard" max_length="40" name="display_in_dashboard" type="boolean"/>
+        <element label="Duration" max_length="40" name="plan_duration" type="glide_duration"/>
+        <element label="Plan End Date" max_length="40" name="plan_end_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="100" name="plan_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Objective" max_length="160" name="plan_objective" type="string"/>
+        <element label="Owner" max_length="32" name="plan_owner" reference="sys_user" type="reference"/>
+        <element label="Plan Start Date" max_length="40" name="plan_start_date" type="glide_date_time"/>
+        <element label="Reason" max_length="60" name="reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Service line" max_length="100" name="service_line" type="string">
+            <choice>
+                <element inactive_on_update="false" label="AI Solutions" sequence="0" value="AI Solutions"/>
+                <element inactive_on_update="false" label="Application" sequence="1" value="Application"/>
+                <element inactive_on_update="false" label="Application Development and Management" sequence="2" value="Application Development and Management"/>
+                <element inactive_on_update="false" label="Backup and Archive Systems" sequence="3" value="Backup and Archive Systems"/>
+                <element inactive_on_update="false" label="Betting and Gaming" sequence="4" value="Betting and Gaming"/>
+                <element inactive_on_update="false" label="Big Data and Analytics" sequence="5" value="Big Data and Analytics"/>
+                <element inactive_on_update="false" label="Business Consulting" sequence="6" value="Business Consulting"/>
+                <element inactive_on_update="false" label="Business Intelligence" sequence="7" value="Business Intelligence"/>
+                <element inactive_on_update="false" label="Business Process Outsourcing" sequence="8" value="Business Process Outsourcing"/>
+                <element inactive_on_update="false" label="Communications, Media and Services" sequence="9" value="Communications Media and Services"/>
+                <element inactive_on_update="false" label="Content, Communications and Collaboration" sequence="10" value="Content Communications and Collaboration"/>
+                <element inactive_on_update="false" label="Customer Relationship Management" sequence="11" value="Customer Relationship Management"/>
+                <element inactive_on_update="false" label="Data Center Services" sequence="12" value="Data Center Services"/>
+                <element inactive_on_update="false" label="Defense and National Security" sequence="13" value="Defense and National Security"/>
+                <element inactive_on_update="false" label="Desktop and Workstation" sequence="14" value="Desktop and Workstation"/>
+                <element inactive_on_update="false" label="Digital Content Creation" sequence="15" value="Digital Content Creation"/>
+                <element inactive_on_update="false" label="Disk Storage Systems" sequence="16" value="Disk Storage Systems"/>
+                <element inactive_on_update="false" label="Education" sequence="17" value="Education"/>
+                <element inactive_on_update="false" label="End User Services" sequence="18" value="End User Services"/>
+                <element inactive_on_update="false" label="Enterprise Applications" sequence="19" value="Enterprise Applications"/>
+                <element inactive_on_update="false" label="Enterprise Network" sequence="20" value="Enterprise Network"/>
+                <element inactive_on_update="false" label="Enterprise Resource Planning" sequence="21" value="Enterprise Resource Planning"/>
+                <element inactive_on_update="false" label="Financial" sequence="22" value="Financial"/>
+                <element inactive_on_update="false" label="Financial Products" sequence="23" value="Financial Products"/>
+                <element inactive_on_update="false" label="Government and Public Sector" sequence="24" value="Government and Public Sector"/>
+                <element inactive_on_update="false" label="Healthcare Providers" sequence="25" value="Healthcare Providers"/>
+                <element inactive_on_update="false" label="High Performance Computing" sequence="26" value="High Performance Computing"/>
+                <element inactive_on_update="false" label="Hybrid IT" sequence="27" value="Hybrid IT"/>
+                <element inactive_on_update="false" label="Information Management" sequence="28" value="Information Management"/>
+                <element inactive_on_update="false" label="Infrastructure as a Service" sequence="29" value="Infrastructure as a Service"/>
+                <element inactive_on_update="false" label="Innovative Application Services" sequence="30" value="Innovative Application Services"/>
+                <element inactive_on_update="false" label="Intelligent Data Services" sequence="31" value="Intelligent Data Services"/>
+                <element inactive_on_update="false" label="Intelligent Society Solutions" sequence="32" value="Intelligent Society Solutions"/>
+                <element inactive_on_update="false" label="IoT Solution" sequence="33" value="IoT Solution"/>
+                <element inactive_on_update="false" label="IT Consulting" sequence="34" value="IT Consulting"/>
+                <element inactive_on_update="false" label="Mainframe" sequence="35" value="Mainframe"/>
+                <element inactive_on_update="false" label="Manufacturing and Natural Resources" sequence="36" value="Manufacturing and Natural Resources"/>
+                <element inactive_on_update="false" label="Middleware" sequence="37" value="Middleware"/>
+                <element inactive_on_update="false" label="Mission Critical x86 Server" sequence="38" value="Mission Critical x86 Server"/>
+                <element inactive_on_update="false" label="Network and Communication" sequence="39" value="Network and Communication"/>
+                <element inactive_on_update="false" label="Non-Fujitsu Network Products" sequence="40" value="Non Fujitsu Network Products"/>
+                <element inactive_on_update="false" label="Non-Fujitsu Other Products" sequence="41" value="Non Fujitsu Other Products"/>
+                <element inactive_on_update="false" label="Non-Fujitsu Product Related Services" sequence="42" value="Non Fujitsu Product Related Services"/>
+                <element inactive_on_update="false" label="Non-Fujitsu Software Products" sequence="43" value="Non Fujitsu Software Products"/>
+                <element inactive_on_update="false" label="Non-Fujitsu Storage Products" sequence="44" value="Non Fujitsu Storage Products"/>
+                <element inactive_on_update="false" label="Notebook and Tablet" sequence="45" value="Notebook and Tablet"/>
+                <element inactive_on_update="false" label="Office Suite" sequence="46" value="Office Suite"/>
+                <element inactive_on_update="false" label="Oracle" sequence="47" value="Oracle"/>
+                <element inactive_on_update="false" label="Other Application Software" sequence="48" value="Other Application Software"/>
+                <element inactive_on_update="false" label="Other Client Computing Devices" sequence="49" value="Other Client Computing Devices"/>
+                <element inactive_on_update="false" label="Other Fujitsu Products" sequence="50" value="Other Fujitsu Products"/>
+                <element inactive_on_update="false" label="Other Managed Infrastructure Services" sequence="51" value="Other Managed Infrastructure Services"/>
+                <element inactive_on_update="false" label="Other Software" sequence="52" value="Other Software"/>
+                <element inactive_on_update="false" label="Other Storage Systems" sequence="53" value="Other Storage Systems"/>
+                <element inactive_on_update="false" label="Peripherals" sequence="54" value="Peripherals"/>
+                <element inactive_on_update="false" label="Phones" sequence="55" value="Phones"/>
+                <element inactive_on_update="false" label="Platform as a Service" sequence="56" value="Platform as a Service"/>
+                <element inactive_on_update="false" label="Private Cloud" sequence="57" value="Private Cloud"/>
+                <element inactive_on_update="false" label="Product Related Services" sequence="58" value="Product Related Services"/>
+                <element inactive_on_update="false" label="Project and Portfolio Management" sequence="59" value="Project and Portfolio Management"/>
+                <element inactive_on_update="false" label="Public Safety Network" sequence="60" value="Public Safety Network"/>
+                <element inactive_on_update="false" label="Retail" sequence="61" value="Retail"/>
+                <element inactive_on_update="false" label="Retail Products" sequence="62" value="Retail Products"/>
+                <element inactive_on_update="false" label="SAP" sequence="63" value="SAP"/>
+                <element inactive_on_update="false" label="Security Consulting" sequence="64" value="Security Consulting"/>
+                <element inactive_on_update="false" label="Security Services" sequence="65" value="Security Services"/>
+                <element inactive_on_update="false" label="Security Solutions" sequence="66" value="Security Solutions"/>
+                <element inactive_on_update="false" label="Service Desk" sequence="67" value="Service Desk"/>
+                <element inactive_on_update="false" label="Software as a Service" sequence="68" value="Software as a Service"/>
+                <element inactive_on_update="false" label="Supercomputer" sequence="69" value="Supercomputer"/>
+                <element inactive_on_update="false" label="Supply Chain Management" sequence="70" value="Supply Chain Management"/>
+                <element inactive_on_update="false" label="Sustainability" sequence="71" value="Sustainabilit"/>
+                <element inactive_on_update="false" label="Technical Computing (HPC)" sequence="72" value="Technical Computing (HPC)"/>
+                <element inactive_on_update="false" label="Technical Support Services" sequence="73" value="Technical Support Services"/>
+                <element inactive_on_update="false" label="Telecom Carrier Network" sequence="74" value="Telecom Carrier Network"/>
+                <element inactive_on_update="false" label="Transportation" sequence="75" value="Transportation"/>
+                <element inactive_on_update="false" label="Unix Server" sequence="76" value="Unix Server"/>
+                <element inactive_on_update="false" label="Utilities" sequence="77" value="Utilities"/>
+                <element inactive_on_update="false" label="Virtualization" sequence="78" value="Virtualization"/>
+                <element inactive_on_update="false" label="Wholesale Trade" sequence="79" value="Wholesale Trade"/>
+                <element inactive_on_update="false" label="x86 Server" sequence="80" value="x86 Server"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Success measure" max_length="160" name="success_measure" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="User access" max_length="1024" name="user_access" reference="sys_user" type="glide_list"/>
+    </element>
+</database>

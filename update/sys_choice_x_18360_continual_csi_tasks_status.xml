@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_18360_continual_csi_tasks" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Started</label>
+            <language>en</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>1</sequence>
+            <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+            <sys_created_on>2016-09-08 16:54:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1af53b644ff922009414cab18110c79e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2016-09-08 17:01:01</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>On Hold</label>
+            <language>en</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>2</sequence>
+            <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+            <sys_created_on>2016-09-08 16:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c156b7644ff922009414cab18110c7e4</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-28 04:53:59</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Work In Progress</label>
+            <language>en</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>3</sequence>
+            <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+            <sys_created_on>2016-09-08 16:55:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>306677644ff922009414cab18110c7d8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2019-01-15 16:26:39</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Achevée</label>
+            <language>fr</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-02 13:15:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7132b355db4c5340e08070d9bf9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-02 13:15:39</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Compleet</label>
+            <language>nl</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-01-31 12:58:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce0b5d78dbc89f00e08070d9bf96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-01-31 12:58:10</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Completar</label>
+            <language>es</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-05 13:13:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c77ec7d2dbc81300e08070d9bf9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-05 13:13:29</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Complete</label>
+            <language>en</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>4</sequence>
+            <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+            <sys_created_on>2016-09-08 16:55:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d76b3644ff922009414cab18110c7b6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-11 10:30:32</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Completo</label>
+            <language>pt</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-05 13:45:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8eb5579edb4c1300e08070d9bf96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-05 13:45:05</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kompletny</label>
+            <language>pl</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-05 11:32:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7147ba1e370c13001e2b2ea843990ede</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-05 11:32:05</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Komplett</label>
+            <language>de</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-05 07:09:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>993bb19e37c013001e2b2ea843990e99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-05 07:09:37</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>полный</label>
+            <language>ru</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-06 12:54:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9a3147adb449300e08070d9bf9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-06 12:54:08</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>สมบูรณ์</label>
+            <language>th</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-01 08:31:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6097e541374cdb001e2b2ea843990e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-01 08:31:26</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>コンプリート</label>
+            <language>ja</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-05-18 10:50:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee9398bd37fa3a801e2b2ea843990eee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-05-18 10:50:22</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>完成</label>
+            <language>zh</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-01 09:55:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0eaf5c1db801340e08070d9bf961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-01 09:55:46</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On Hold - Awaiting Customer</label>
+            <language>en</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>5</sequence>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-11 10:27:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22bb713137d2ab801e2b2ea843990eea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-11 10:27:22</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On Hold – Awaiting Account</label>
+            <language>en</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>6</sequence>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-11 10:27:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ddb713137d2ab801e2b2ea843990ef1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-11 10:27:49</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>7</sequence>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-11 10:29:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>605cb93137d2ab801e2b2ea843990eb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-11 10:29:57</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Incomplete</label>
+            <language>en</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>8</sequence>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-11 10:30:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc6c393137d2ab801e2b2ea843990e75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-11 10:30:15</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Withdrawn</label>
+            <language>en</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>9</sequence>
+            <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+            <sys_created_on>2018-12-11 10:28:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>601c393137d2ab801e2b2ea843990ec4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2018-12-11 10:28:52</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_18360_continual_csi_tasks</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+            <sys_created_on>2016-09-08 16:54:30</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>58d8beb337122a001e2b2ea843990e5f</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Continual Service Improvement" source="x_18360_continual">7f4dde5c4f7522009414cab18110c7b9</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Continual Service Improvement">7f4dde5c4f7522009414cab18110c7b9</sys_scope>
+            <sys_update_name>sys_choice_x_18360_continual_csi_tasks_status</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-05-18 10:50:22</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

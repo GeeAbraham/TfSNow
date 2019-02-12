@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="current_rag_status" table="x_18360_continual_csi_tasks" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>current_rag_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Green</label>
+            <language>en</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>1</sequence>
+            <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+            <sys_created_on>2016-09-08 16:59:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc67ff644ff922009414cab18110c7c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2016-09-08 16:59:51</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>current_rag_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Amber</label>
+            <language>en</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>2</sequence>
+            <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+            <sys_created_on>2016-09-08 17:00:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c387fb644ff922009414cab18110c71b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2016-09-08 17:00:06</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>current_rag_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Czerwony</label>
+            <language>pl</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-05 11:32:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17477e1e370c13001e2b2ea843990ea9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-05 11:32:11</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>current_rag_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Red</label>
+            <language>en</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>3</sequence>
+            <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+            <sys_created_on>2016-09-08 17:00:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76977f644ff922009414cab18110c79e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sajid.aziz@uk.fujitsu.com</sys_updated_by>
+            <sys_updated_on>2016-09-08 17:00:20</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>current_rag_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>rojo</label>
+            <language>es</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-05 13:13:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc8e8bd2dbc81300e08070d9bf9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-05 13:13:35</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>current_rag_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rood</label>
+            <language>nl</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-01-31 12:58:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e41b11b8dbc89f00e08070d9bf9619e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-01-31 12:58:20</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>current_rag_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>rot</label>
+            <language>de</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-05 07:09:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a3b759e37c013001e2b2ea843990e48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-05 07:09:43</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>current_rag_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>rouge</label>
+            <language>fr</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-02 13:15:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5b327755db4c5340e08070d9bf961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-02 13:15:46</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>current_rag_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vermelho</label>
+            <language>pt</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-05 13:45:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bb55b9edb4c1300e08070d9bf9619d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-05 13:45:12</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>current_rag_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>красный</label>
+            <language>ru</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-06 12:54:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43a3d47adb449300e08070d9bf9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-06 12:54:14</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>current_rag_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>สีแดง</label>
+            <language>th</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-01 08:31:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17972d41374cdb001e2b2ea843990edb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-01 08:31:38</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>current_rag_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>红</label>
+            <language>zh</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-01 09:55:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fdeaf9c1db801340e08070d9bf961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-01 09:55:53</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>current_rag_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>赤</label>
+            <language>ja</language>
+            <name>x_18360_continual_csi_tasks</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-05-18 10:50:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b931cbd37fa3a801e2b2ea843990e11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-05-18 10:50:26</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>current_rag_status</element>
+            <name>x_18360_continual_csi_tasks</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sajid.aziz@uk.fujitsu.com</sys_created_by>
+            <sys_created_on>2016-09-08 16:59:51</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>94d8beb337122a001e2b2ea843990e4d</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>current_rag_status</sys_name>
+            <sys_package display_value="Continual Service Improvement" source="x_18360_continual">7f4dde5c4f7522009414cab18110c7b9</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Continual Service Improvement">7f4dde5c4f7522009414cab18110c7b9</sys_scope>
+            <sys_update_name>sys_choice_x_18360_continual_csi_tasks_current_rag_status</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-05-18 10:50:26</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="774190f01f1310005a3637b8ec8b70ef" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_18360_continual_csi_tasks</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>CSI-Change plan state based on CSI Task</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	var plan= current.csi_plan;
+	
+     var plan1=current.csi_plan.getDisplayValue();
+		//gs.addInfoMessage('name is ='+plan1);
+	//gs.addInfoMessage('plan is'+plan);
+	var tasks=[];
+	var a=0;
+	var b=0;
+	var c=0;
+	var d=0;
+	var sum='';
+	var i=0;
+	var grct = new GlideRecord("x_18360_continual_csi_tasks");
+	grct.addQuery("csi_plan", plan);
+	grct.query();
+	while (grct.next())
+	{
+		
+		tasks.push(grct.status.toString());
+		//gs.addInfoMessage(tasks);
+	}
+	
+	for( i=0; i<=tasks.length; i++)
+		{
+		
+		if(tasks[i]==6 || tasks[i]==5)
+			{
+			a=a+1;
+				//gs.addInfoMessage('a ='+a);
+			}
+		if(tasks[i]==7)
+			{
+			b=b+1;
+			//gs.addInfoMessage('b ='+b);
+		    }
+			
+		if(tasks[i]==9)
+			{
+			c=c+1;
+			//gs.addInfoMessage('b ='+b);
+		    }
+		if(tasks[i]==8)
+	{
+	d=d+1;
+	//gs.addInfoMessage('d ='+d);
+}
+		
+	sum=b+d+c;
+			//gs.addInfoMessage('sum ='+sum);
+	var grcp = new GlideRecord("x_18360_continual_csi_plans");
+	grcp.addQuery("plan_name", plan1);
+    grcp.query();
+	if (grcp.next()) 
+	{
+		
+		if( tasks.length==sum)
+			{
+			grcp.state='4';
+			grcp.update();
+			}
+		if(tasks.length==a)
+		{
+			grcp.state='13';
+			grcp.update();
+		}
+		
+		if(tasks.length==b)
+		{
+			grcp.state='3';
+			grcp.update();
+		}
+		
+		if(tasks.length==c)
+		{
+			grcp.state='10';
+			grcp.update();
+		}
+		
+		
+	}
+		}
+	
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+        <sys_created_on>2018-12-28 04:40:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+        <sys_domain_path>!!!/</sys_domain_path>
+        <sys_id>264fc013db622304e08070d9bf961958</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>CSI-Change plan state based on CSI Task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Continual Service Improvement" source="x_18360_continual">7f4dde5c4f7522009414cab18110c7b9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continual Service Improvement">7f4dde5c4f7522009414cab18110c7b9</sys_scope>
+        <sys_update_name>sys_script_264fc013db622304e08070d9bf961958</sys_update_name>
+        <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+        <sys_updated_on>2019-01-11 08:49:25</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=264fc013db622304e08070d9bf961958"/>
+</record_update>

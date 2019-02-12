@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Lodge a Complaint">42277019dba567c4e08070d9bf961930</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+        <sys_created_on>2018-11-05 07:35:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ba3bf34adb6d2bc4e08070d9bf961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lodge a Complaint.Complaint visibility</sys_name>
+        <sys_package display_value="Continual Service Improvement" source="x_18360_continual">7f4dde5c4f7522009414cab18110c7b9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continual Service Improvement">7f4dde5c4f7522009414cab18110c7b9</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_ba3bf34adb6d2bc4e08070d9bf961983</sys_update_name>
+        <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+        <sys_updated_on>2018-11-05 07:35:49</sys_updated_on>
+        <user_criteria display_value="Complaint visibility">f1fe8915dba967c4e08070d9bf96196a</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

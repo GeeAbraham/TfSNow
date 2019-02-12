@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Lodge a Complaint">42277019dba567c4e08070d9bf961930</catalog_item>
+        <catalog_variable>IO:addb3015dbe567c4e08070d9bf961927</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+        <sys_created_on>2018-11-26 11:55:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>67ef7c4d374a67401e2b2ea843990ed3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="Continual Service Improvement" source="x_18360_continual">7f4dde5c4f7522009414cab18110c7b9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continual Service Improvement">7f4dde5c4f7522009414cab18110c7b9</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_67ef7c4d374a67401e2b2ea843990ed3</sys_update_name>
+        <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+        <sys_updated_on>2018-11-26 11:55:11</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make Complaint fields mandatory on Portal">81bf744d374a67401e2b2ea843990edd</ui_policy>
+        <variable>description</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

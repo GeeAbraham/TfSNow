@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This client script makes all fields in the Complaint form Read Only if it is closed / withdrawn and user is not admin.</description>
+        <field>u_action_owner</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Make complaint fields readonly on closed</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+     //Type appropriate comment here, and begin script below
+
+var cpla_state=g_form.getValue('state');
+
+
+   if((cpla_state =='4' || cpla_state =='3' || cpla_state =='10')&& (!g_user.hasRoleExactly('admin')))                                                       
+	   //Replace 4 with your Close Choice Value
+
+
+   {
+	   //alert(g_user.hasRoleExactly('admin'));
+
+
+   var fields = g_form.getEditableFields();
+
+
+   for (var x = 0; x < fields.length; x++) {
+
+
+   g_form.setReadOnly(fields[x], true);
+
+
+   }
+
+
+   }
+
+
+}
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+        <sys_created_on>2018-11-12 06:56:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9053fb50db3de300e08070d9bf9619af</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Make complaint fields readonly on closed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Continual Service Improvement" source="x_18360_continual">7f4dde5c4f7522009414cab18110c7b9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continual Service Improvement">7f4dde5c4f7522009414cab18110c7b9</sys_scope>
+        <sys_update_name>sys_script_client_9053fb50db3de300e08070d9bf9619af</sys_update_name>
+        <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+        <sys_updated_on>2018-11-12 10:54:05</sys_updated_on>
+        <table>x_18360_continual_complaints</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

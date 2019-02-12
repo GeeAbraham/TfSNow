@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_u_priority">
+    <dl_u_priority action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <impact>1</impact>
+        <order>100</order>
+        <priority>1</priority>
+        <sys_class_name>dl_u_priority</sys_class_name>
+        <sys_created_by>rishabh.mehta@in.fujitsu.com</sys_created_by>
+        <sys_created_on>2018-10-25 11:48:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3f7b8cfa37952b041e2b2ea843990e75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="Continual Service Improvement" source="x_18360_continual">7f4dde5c4f7522009414cab18110c7b9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continual Service Improvement">7f4dde5c4f7522009414cab18110c7b9</sys_scope>
+        <sys_update_name>dl_u_priority_3f7b8cfa37952b041e2b2ea843990e75</sys_update_name>
+        <sys_updated_by>rishabh.mehta@in.fujitsu.com</sys_updated_by>
+        <sys_updated_on>2018-10-25 11:48:34</sys_updated_on>
+        <u_company/>
+        <urgency>1</urgency>
+    </dl_u_priority>
+</record_update>
