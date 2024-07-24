@@ -1,0 +1,12 @@
+//modify field names and values accordingly.
+var grIncident = new GlideRecord('incident');
+grIncident.addEncodedQuery("active=true^assignment_group.nameLIKESAP L2 Support");
+grIncident.query();
+gs.print(grIncident.getRowCount()); //verify the count before updating.
+while (grIncident.next()) {
+grIncident.state = 6; //resolved value
+grIncident.close_code = ''//map close code value here
+grIncident.close_notes = 'Auto closing incidents';
+//grIncident.update(); //uncomment this after testing
+
+}
